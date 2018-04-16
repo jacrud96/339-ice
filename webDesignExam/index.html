@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Final Exam</title>
+	<link rel="stylesheet" type="text/css" href="css/exam.css">
+</head>
+<body background="images/sun-pattern.png">
+	<header>
+		<h1>Jaclyn Rudolf</h1>
+	</header>
+	<div>
+		<img class="imageclass photo1" id="hiddenImg" src="images/examPic.JPG" alt="image of Colleen and friends">
+		<img class="imageclass photo2" id="leftImg" src="images/UMSI-logo.jpg" alt="logo of UMSI">
+	</div>
+	<div></div>
+	<button type="button" onclick="hideElem()">Hide Image</button>
+	<button type="button" onclick="showElem()">Show Image</button>
+	</div>
+	<script>
+		function hideElem() {
+			document.getElementById("hiddenImg").style.visibility = "hidden";
+		}
+		function showElem() {
+			document.getElementById("hiddenImg").style.visibility = "visible"; 
+		}
+	</script>
+	
+	
+</body>
+</html>

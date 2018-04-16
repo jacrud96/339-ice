@@ -1,0 +1,30 @@
+.imageclass {
+	border-color: blue;
+	border-width: 5px;
+	border-style: solid;
+	padding: 5%;
+	display: inline-block;
+	/*margin: 0px;*/
+
+	
+}
+
+
+
+.photo1 {
+	max-width: 50%;
+	height: auto;
+	margin: 0px;
+
+}
+
+
+.photo2 {
+	max-width: 50%;
+	height: auto;
+	margin: 0px;
+	height: 312px;
+
+}
+
+
